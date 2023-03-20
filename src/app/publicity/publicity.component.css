@@ -1,0 +1,6 @@
+
+.app-publicity{
+    padding: 2px;
+    height: calc(100vh - var(--toolbar-height));
+    width: var(--publicity-width);
+}

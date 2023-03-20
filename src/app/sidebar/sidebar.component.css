@@ -1,0 +1,24 @@
+
+aside{
+    background-color: #EBEDF0;
+  width: var(--sidebar-width);
+  height: calc(100vh - var(--toolbar-height));
+  position: absolute;
+
+}
+
+.aside-container {
+    margin-top: 20px;
+}
+
+::marker {
+    color: transparent;
+}
+
+a.aside-links {
+    text-decoration: none;
+}
+
+li.aside-li {
+    margin-bottom: 10px;
+}

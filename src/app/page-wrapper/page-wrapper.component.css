@@ -1,0 +1,7 @@
+main{
+    padding: 20px;
+    height: calc(100vh - var(--toolbar-height));
+    margin-left: var(--sidebar-width);
+    display: flex;
+    flex-direction: row;
+}
