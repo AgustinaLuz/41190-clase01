@@ -33,7 +33,9 @@ li.nav-item  {
     width: fit-content;
     border-radius: 30px;
 }
-
+input.form-control.me-2 {
+    background-color: #ECF3FF;
+}
 button.btn.btn-outline-success {
     padding: 3px;
     border-radius: 50%;
@@ -57,4 +59,13 @@ button.btn.btn-outline-success {
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: none;
     --bs-gradient: none;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: white !important;
+}
+.toolbar {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dee2e6;
 }

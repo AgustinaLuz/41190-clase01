@@ -3,4 +3,28 @@
     padding: 2px;
     height: calc(100vh - var(--toolbar-height));
     width: var(--publicity-width);
+    background-color: #ECF3FF;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.text-publ {
+    border-width: 1px;
+    border-color: #bfc9d3;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    font-weight: 600;
+    line-height: 45px;
+}
+p.chats {
+    color: #65676B;
+    font-weight: 600;
+}
+.third-text {
+    display: flex;
+}
+p.create {
+    margin-left: 5px;
+    margin-top: 3px;
 }

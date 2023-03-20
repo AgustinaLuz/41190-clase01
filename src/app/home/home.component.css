@@ -1,0 +1,29 @@
+.home-container {
+    width: 550px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px var(--shadow-2);
+    background-color: var(--surface-background);
+    --shadow-2: rgba(0, 0, 0, 0.2)
+}
+.profile-div {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+p.name {
+    margin-left: 10px;
+}
+
+img.post-pic {
+    width: -webkit-fill-available;
+}
+img.pic-me {
+    border-radius: 50%;
+}
+p.post-description {
+    margin-left: 15px;
+}

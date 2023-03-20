@@ -1,10 +1,8 @@
 
 aside{
-    background-color: #EBEDF0;
+    background-color: #ECF3FF;
   width: var(--sidebar-width);
   height: calc(100vh - var(--toolbar-height));
-  position: absolute;
-
 }
 
 .aside-container {
@@ -17,8 +15,17 @@ aside{
 
 a.aside-links {
     text-decoration: none;
+    color: #050505;
 }
 
 li.aside-li {
     margin-bottom: 10px;
+}
+img.pic-me {
+    border-radius: 50%;
+}
+a.link-prof {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #050505;
 }

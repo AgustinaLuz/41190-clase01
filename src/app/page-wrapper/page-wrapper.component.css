@@ -1,7 +1,13 @@
 main{
-    padding: 20px;
-    height: calc(100vh - var(--toolbar-height));
-    margin-left: var(--sidebar-width);
-    display: flex;
-    flex-direction: row;
+    padding-top: 20px;
+    /* height: calc(100vh - var(--toolbar-height)); */
+    /* margin-left: var(--sidebar-width); */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* max-width: 604px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #ECF3FF;
+    margin-right: auto;
+    margin-left: auto;
 }
